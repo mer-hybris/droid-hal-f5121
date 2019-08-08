@@ -20,7 +20,11 @@
 
 %define straggler_files\
     /selinux_version\
+    /sepolicy\
     /service_contexts\
+    /property_contexts\
+    /seapp_contexts\
+    /file_contexts\
 %{nil}
 
 %define android_config \
